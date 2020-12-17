@@ -1,0 +1,23 @@
+.header--background-color {
+    background-color: $color-blue-marine;
+
+}
+
+.nav-pills {
+    .nav-item {
+        .nav-link.active {
+            background-color: $color-blue-marine-light;
+            color:$color-white;
+        }
+        a.nav-link {
+            text-decoration: none;
+            color:$color-white;
+        }
+        a:hover {
+            background-color: $color-blue-marine-light;
+            color: $color-white; 
+                }
+            }
+    }
+
+

@@ -1,0 +1,67 @@
+
+ section.nosotros {
+     padding: 4rem;
+     background-color: $color-blue-marine-light;
+
+            ol li {
+                color: $color-white;
+                ul li {
+                    text-align: left;
+                    margin: 10px;
+                }
+                
+            }
+        
+ }
+ 
+
+.section__icons--garantia {
+    padding: 3rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+        i{
+        font-size: 3rem;
+        color: $color-blue-marine-light;
+        margin-top: 80px;
+        padding: 20px;
+    }
+}
+
+@mixin large-text {
+
+    font: $p-intro;
+    font-weight: 400;
+     
+}
+.tree_nation {
+        background-color: $color-green-tree;
+        padding-top: 100px;
+        padding-bottom: 100px;
+            .text-tree {
+                @include large-text;
+                color: $color-white;
+                padding: 4px;
+                margin-top: 10px;
+            }
+}
+
+.introPag{
+    a {
+        text-decoration: none;
+    }
+    i {
+        border-radius: 50%; 
+        color: $color-white;
+        font-size: 2.5rem;
+        background: $color-gradient-green;
+        padding: 1rem;
+        width: 50px;
+        height: 50px;  
+    }
+                    
+    i:hover {
+    background: $color-green-light ;
+    }
+}
+
+

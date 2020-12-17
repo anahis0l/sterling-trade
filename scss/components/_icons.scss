@@ -1,0 +1,28 @@
+
+.section__icons{
+    background-color: $color-grey-lighter;
+    padding: 3rem;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 100px;
+        a {
+            text-decoration: none;
+        }
+        i {
+            color: $color-white;
+            font-size: 2.5rem;
+            background-color:$color-blue-marine;
+            padding: 1rem;
+            border-radius: 50%;   
+            width: 50px;
+            height: 50px;  }
+                        
+        i:hover {
+        background-color: $color-blue-marine-light ;
+        }
+}
+
+.icons_box{
+    padding: 2rem ;
+}
+

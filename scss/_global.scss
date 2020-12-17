@@ -1,0 +1,69 @@
+h2 {
+    font:$tittle-font;
+    background: $color-gradient;
+    color: $color-white;
+}
+
+h3 {
+    font: $subtittle;
+    color: $color-blue-marine;
+}
+
+p {
+    font: $p-body;
+    color: $color-blue-marine;
+    line-height: 18px;
+}
+
+h5.pGrey {
+    font: $p-grey;
+    color: $color-grey-dark;
+    letter-spacing: 0.125rem;
+    padding-bottom: 20px;
+}
+
+p.textoIntro {
+    font: $p-intro;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+body { 
+    margin: 0;
+    background-color: $color-grey-light;
+}
+header{
+    background-color:#0d4c75;
+    padding: 10px;
+}   
+
+footer {
+    background: $color-gradient-blue;
+    color:$color-white ;
+    position: relative;
+    padding-top: 30px;
+    height: 100px;
+        a{
+            text-decoration: none;   
+            color: $color-white;
+           
+            i {
+              letter-spacing: 20px;
+              font-size: 2rem;
+             }
+             }
+        p.copyright {
+                color:$color-white;
+            }
+        a:hover {
+                color: $color-blue-aqua;
+                text-decoration: none;
+            }
+}
+
+
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.btn-primary {
+                background-color: $color-red-light;
+                border-color: $color-red-light;
+                color: $color-white;
+            a {
+                    color: $color-white;
+                    text-decoration: none;
+
+                }
+
+}
+.btn-primary:hover {
+    background-color: $color-blue-marine-light;
+    border-color: $color-blue-marine-light;
+    color: $color-white; 
+        }
