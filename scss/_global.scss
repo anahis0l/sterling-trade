@@ -2,11 +2,19 @@ h2 {
     font:$tittle-font;
     background: $color-gradient;
     color: $color-white;
+    margin-top: 20px;
+    padding-left: 20px;
 }
 
 h3 {
     font: $subtittle;
     color: $color-blue-marine;
+}
+
+h4 {
+    font: $subtittle2;
+    color: $color-blue-marine;
+
 }
 
 p {
@@ -35,7 +43,7 @@ body {
 }
 header{
     background-color:#0d4c75;
-    padding: 10px;
+    padding: 2px;
 }   
 
 footer {
@@ -44,26 +52,31 @@ footer {
     position: relative;
     padding-top: 30px;
     height: 100px;
-        a{
+            a{
             text-decoration: none;   
             color: $color-white;
-           
-            i {
-              letter-spacing: 20px;
-              font-size: 2rem;
-             }
-             }
+
+                
+                &:hover {
+                    color: $color-blue-aqua;
+                    text-decoration: none;
+                }
+                }
+                
+                i {
+                letter-spacing: 10px;
+                font-size: 1.3rem;
+                    }
+               
         p.copyright {
                 color:$color-white;
             }
-        a:hover {
-                color: $color-blue-aqua;
-                text-decoration: none;
-            }
+
 }
-
-
-
 a{
     text-decoration: none;
+}
+
+img.banner {
+    width: 100%;
 }

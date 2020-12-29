@@ -1,16 +1,17 @@
 .btn-primary {
-                background-color: $color-red-light;
-                border-color: $color-red-light;
+                background: $color-gradient-red;
+                border-color: $color-red;
                 color: $color-white;
             a {
                     color: $color-white;
                     text-decoration: none;
 
                 }
+             &:hover {
+                    background: $color-blue-marine-light;
+                    border-color: $color-blue-marine-light;
+                    color: $color-white; 
+                        }
 
 }
-.btn-primary:hover {
-    background-color: $color-blue-marine-light;
-    border-color: $color-blue-marine-light;
-    color: $color-white; 
-        }
+

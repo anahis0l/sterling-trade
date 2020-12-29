@@ -1,22 +1,43 @@
 .header--background-color {
-    background-color: $color-red-light;
+    background-color: $color-blue-marine;
+
 }
 
-.nav-pills {
+nav {
     .nav-item {
+        margin-left: 5px;
+        margin-right: 5px;
         .nav-link.active {
             background-color: $color-blue-marine-light;
+            border-radius: 2px;
             color:$color-white;
         }
+
+       
         a.nav-link {
-            text-decoration: none;
             color:$color-white;
-        }
-        a:hover {
+            text-decoration: none;
+            
+            
+        
+        &:hover {
             background-color: $color-blue-marine-light;
+            border-radius: 2px;
             color: $color-white; 
                 }
             }
+                    
+                }
+            
     }
 
+button {
+        
+        
+        background-color: $color-blue-marine-light;
+        border-color: $color-blue-marine-light;
+        .navbar-toggler-icon {
+            color: $color-white;
+        }
+}
 
