@@ -4,12 +4,16 @@
 }
 
 nav {
+    
+    .navbar-collapse {
+        flex-grow: 0;
+  
     .nav-item {
         margin-left: 5px;
         margin-right: 5px;
         .nav-link.active {
             background-color: $color-blue-marine-light;
-            border-radius: 2px;
+            border-radius: 3px;
             color:$color-white;
         }
 
@@ -22,14 +26,21 @@ nav {
         
         &:hover {
             background-color: $color-blue-marine-light;
-            border-radius: 2px;
+            border-radius: 3px;
             color: $color-white; 
                 }
             }
                     
                 }
-            
-    }
+            }
+        }
+ 
+        
+ @media (min-width: 992px) {
+        .navbar-expand-lg {
+            justify-content: space-around;
+        }
+}
 
 button {
         

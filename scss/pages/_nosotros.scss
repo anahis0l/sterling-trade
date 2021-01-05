@@ -1,14 +1,20 @@
 
  section.nosotros {
-     padding: 4rem;
+     padding-top: 5rem;
+     padding-bottom: 5rem;
      background-color: $color-blue-marine-light;
+
+            i.icon-paste {
+                color: $color-white;
+                font-size: 2rem;
+                padding: 1rem;
+            }
 
             ol li {
                 color: $color-white;
-                ul li {
-                    text-align: left;
-                    margin: 10px;
-                }
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 48px;
                 
             }
         
@@ -69,21 +75,14 @@
 
 .coment_treenation {
 
-    /*
-    background-image: url('/imagenes/forest.jpg');
-    position: relative;
-    width: 100%;
-
-
-    h4 {
-        position: absolute;
-        top: 0;
-        z-index: 0; }
-
-    */
-    background-color: $color-green-light;
+        img {
+            background-size: cover;
+            position: absolute;
+            width: 100%;
+        }
 
     h4 {
+        position: relative;
         color: $color-white;
         font-size: 40px;
         font-weight: 700;
