@@ -4,7 +4,15 @@
 }
 
 nav {
-    
+    i {
+        color: $color-white;
+        border: solid 2px $color-blue-marine-light;
+        border-radius: 10%;
+        padding: 5px;
+        &:hover {
+            background-color: $color-blue-marine-light;
+        }
+    }
     .navbar-collapse {
         flex-grow: 0;
   

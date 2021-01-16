@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?s6ftoo');
-  src:  url('../fonts/icomoon.eot?s6ftoo#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?s6ftoo') format('truetype'),
-    url('../fonts/icomoon.woff?s6ftoo') format('woff'),
-    url('../fonts/icomoon.svg?s6ftoo#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?4uo26q');
+  src:  url('../fonts/icomoon.eot?4uo26q#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?4uo26q') format('truetype'),
+    url('../fonts/icomoon.woff?4uo26q') format('woff'),
+    url('../fonts/icomoon.svg?4uo26q#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -159,4 +159,16 @@
 }
 .icon-yelp:before {
   content: "\f1e9";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-ellipsis-v:before {
+  content: "\f142";
 }

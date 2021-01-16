@@ -77,18 +77,12 @@
 
         img {
             background-size: cover;
-            position: absolute;
             width: 100%;
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
-
-    h4 {
-        position: relative;
-        color: $color-white;
-        font-size: 40px;
-        font-weight: 700;
-
-        
-    }
 
 }
 

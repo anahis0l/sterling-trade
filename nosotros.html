@@ -11,6 +11,8 @@
                 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>   
                 <link rel="icon" href="imagenes/logo.png">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+                    <script> new WOW().init();</script>
                 <link rel="stylesheet" href="css/main.css" type="text/css">   
             </head>
     <body> 
@@ -18,7 +20,7 @@
             <nav class="navbar navbar-expand-lg">
               <a href="./index.html"><img  class="navbar-brand" src="./imagenes/logo-st-blanco.png" width="80px" height="40px"></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span></button>
+                    <i class="icon-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">  
                   <ul class="navbar-nav  mr-auto">
                     <li class="nav-item">
@@ -42,15 +44,19 @@
                 </nav>
               </header>
             <main>
-              <section>
-                 <img class="banner" src="./imagenes/nosotrosimg.jpg">
+              <section class="container banner wow animate__animated animate__fadeIn animate__slower">
+                 <img class="img-fluid"  alt="Responsive image" src="./imagenes/nosotrosimg.jpg">
+                 <div class="wow animate__animated  animate__fadeIn animate__delay-1s">
+                    <img class="img-fluid logo_flecha" alt="Responsive image" src="./imagenes/logo.png">
+                    <h1>About us</h1>
+                </div>
                </section>
             <section class="introPag"><!-- seccion resumen de pagina, quienes somos  -->
                 <div class="container">
                     <h2 class="font-weight-bold ">Sobre Nosotros </h2>
                     <div class="row">
                         <div class="col offset-1 col-10 offset-1">
-                            <p class="textoIntro"> <strong>Somos especialistas en servicios logísticos para el comercio internacional, </strong>  integrada por profesionales con amplia experiencia en el sector, con capacidad de adaptarnos a las necesidades de cada cliente y sus desafíos propios.
+                            <p class="textoIntro list-styled wow animate__animated animate__fadeIn animate__delay-2s"> <strong>Somos especialistas en servicios logísticos para el comercio internacional, </strong>  integrada por profesionales con amplia experiencia en el sector, con capacidad de adaptarnos a las necesidades de cada cliente y sus desafíos propios.
                             Sterling Trade tiene especial foco en la innovación, la adaptabilidad tecnológica, y dinamismo para mejora de procesos operativos y comerciales. <br/> Trabajamos junto con <strong>TreeNation</strong>. Conoce un poco más sobre nuestro bosque virtual. </p>  
                         </div>
                     </div>
@@ -69,7 +75,7 @@
                             <h5 class="pGrey font-weight-bold">PORQUE NOS DEBERIAS ELEGIR</h5>
                             <p> Sterling Trade sabe que la gestión de cada envío, sea nacional o internacional, puede resultar un reto. Su equipo de profesionales hace uso de los sistemas tecnológicos más avanzados para obtener información veraz sobre la situación y estado de cada una de las partidas. Cuidando la mercancía y la documentación que requiere cada expedición para asegurar que traza la ruta más fiable, siempre adaptándonos a las necesidades de los clientes. </br> 
                             <strong> Contamos con una red de agentes ubicados en los principales puertos y aeropuertos del mundo, que nos permite asegurar agilidad y eficiencia en cada operación.</strong></p> 
-                            <button type="button" class="btn btn-primary btn-info shadow"><a href="./servicios.html">Conocé nuestros servicios</a></button>
+                            <button type="button" class="btn btn-primary btn-info shadow wow animate__animated animate__fadeInRight"><a href="./servicios.html">Conocé nuestros servicios</a></button>
                         </div> 
                      </div>
                     </div>
@@ -82,7 +88,7 @@
                                 <h5 class="pGrey font-weight-bold d-inline">NUESTRA FÓRMULA</h5>
                             </div>
                             <div class="col-12 col-md-8 col-xl-8">
-                            <ol class="list-styled animate__animated animate__zoomInDown">
+                            <ol class="list-styled wow animate__animated animate__zoomIn animate__slower">
                                 <li>Amplia y consolidada red de contactos logísticos </li>
                                 <li>Agilidad en la resolución de incidencias</li>
                                 <li>Seguridad en los envíos  </li>
@@ -99,37 +105,34 @@
                             <h5 class="pGrey font-weight-bold">GARANTÍAS DE SERVICIO</h5>
                             <div class="row">
                                 <div class="icons_box  col-12 col-md-6 col-xl-4 text-center">
-                                    <i class="icon-desktop"></i> <hr>
+                                    <i class="icon-desktop wow animate__animated animate__fadeIn animate__slower"></i><hr>
                                      <p>Diseñamos nuestros servicios de acuerdo a las necesidades de cada cliente gracias a nuestra oferta diferenciada.</p>
                                 </div>
                                 <div class="icons_box   col-12 col-md-6 col-xl-4 text-center">
-                                    <i class="icon-check"></i><hr>
+                                    <i class="icon-check wow animate__animated animate__fadeIn animate__slower"></i><hr>
                                     <p>La experiencia que adquirimos a través del servicio brindado y el uso de tecnología especializada garantizan un servicio de calidad y eficiente.</p>
                                 </div>
                                 <div class="icons_box  col-12 col-md-6 col-xl-4 text-center">
-                                    <i class=" icon-command"></i><hr>
+                                    <i class=" icon-command wow animate__animated animate__fadeIn animate__slower"></i><hr>
                                     <p>Aportamos agilidad, dinamismo y flexibilidad en la cadena de valor.</p>
                                 </div>
                                 <div class="icons_box   col-12 col-md-6 col-xl-4 text-center">
-                                    <i class="icon-cog"></i><hr>
+                                    <i class="icon-cog wow animate__animated animate__fadeIn animate__slower"></i><hr>
                                     <p>Cadena de suministro de nuestros socios comerciales.</p>
                                 </div>
                                 <div class="icons_box   col-12 col-md-6 col-xl-4  text-center">
-                                    <i class=" icon-tree"></i><hr>
+                                    <i class=" icon-tree wow animate__animated animate__fadeIn animate__slower"></i><hr>
                                     <p>Construimos relaciones a largo plazo basadas en compromiso y confianza.</p>
                                 </div>
                                 <div class="icons_box   col-12 col-md-6 col-xl-4 text-center">
-                                    <i class="icon-tab"></i><hr>
+                                    <i class="icon-tab wow animate__animated animate__fadeIn animate__slower"></i><hr>
                                     <p>Generamos un impacto positivo en los costos de distribución.</p>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section class="coment_treenation">
-                        <img src="./imagenes/forest.jpg" class="img-fluid" width="100%">
-                        <div class="container"> 
-                            <h4 class="text-center"> Por cada envio que realizan nuestros clientes plantamos un árbol</h4>
-                        </div>  
+                        <img src="./imagenes/forest.jpg" class="img-fluid">
                     </section>
                     <section class="tree_nation"> <a name="tree-nation" id="tree-nation"></a> 
                         <div class="container">

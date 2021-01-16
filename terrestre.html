@@ -9,8 +9,10 @@
             <meta name="keywords" content="TRUCK, CARGO, TRANSPORT, LOGISTICS, LAND FREIGHT">
                 <link rel="stylesheet" href="css/bootstrap.min.css" >
                 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
                 <link rel="icon" href="imagenes/logo.png">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+                    <script> new WOW().init();</script>
                 <link rel="stylesheet" href="css/main.css" type="text/css">    
           </head>
     <body> 
@@ -18,7 +20,7 @@
                 <nav class="navbar navbar-expand-lg">
                   <a href="./index.html"><img  class="navbar-brand" src="./imagenes/logo-st-blanco.png" width="80px" height="40px"></a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span></button>
+                        <i class="icon-bars"></i></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">  
                       <ul class="navbar-nav  mr-auto">
                         <li class="nav-item">
@@ -42,12 +44,16 @@
                     </nav>
             </header>
         <main>
-            <section>
-             <img class="banner" src="./imagenes/nosotrosimg.jpg">
-             </section>
+            <section class="container banner wow animate__animated animate__fadeIn animate__slower">
+                <img class="img-fluid"  alt="Responsive image" src="./imagenes/nosotrosimg.jpg">
+                <div class="wow animate__animated  animate__fadeIn animate__delay-1s">
+                   <img class="img-fluid logo_flecha" alt="Responsive image" src="./imagenes/logo.png">
+                   <h1>In Land</h1>
+               </div>
+              </section>
             <section class="introPag"> <!-- seccion resumen de pagina, quienes somos  -->
                 <div class="container">
-                    <h2 class="font-weight-bold ">TRUCK FREIGHT </h2>
+                    <h2 class="font-weight-bold ">Servicio Terrestre </h2>
                     <div class="row">
                         <div class="textoSomos col offset-1 col-10 offset-1">
                             <p class="textoIntro"> Transporte desde y hacia <strong>Brasil, Chile, Uruguay y Paraguay </strong> de materias primas, carga seca, productos químicos y /o peligrosos, cargas consolidadas, fraccionadas, refrigeradas y fuera de medida. Tarifas especiales para tus cargas multimodal y limitrofes.  </p>  
@@ -99,16 +105,16 @@
                   </div>
                 </div>
                  </section>
-                    <section>  <!-- galeria de imagenes x3  -->
+                    <section class="container-fluid">  <!-- galeria de imagenes x3  -->
                       <div class="row">
                         <div class="galeria_x3 col-12 col-md-4 col-xl-4">
-                            <img src="./imagenes/terretre1.jpg" class="img-fluid animate__animated animate__fadeIn animate__delay-1s" alt="Responsive image" width="100%"> 
+                            <img src="./imagenes/terretre1.jpg" class="img-fluid wow animate__animated animate__fadeIn animate__delay-1s" alt="Responsive image" width="100%"> 
                         </div>
                         <div class="galeria_x3 col-12 col-md-4 col-xl-4">
-                            <img src="./imagenes/terrestre2.jpg" class="img-fluid animate__animated animate__fadeIn animate__delay-2s" alt="Responsive image" width="100%"> 
+                            <img src="./imagenes/terrestre2.jpg" class="img-fluid wow animate__animated animate__fadeIn animate__delay-2s" alt="Responsive image" width="100%"> 
                         </div>
                         <div class="galeria_x3 col-12 col-md-4 col-xl-4">
-                            <img src="./imagenes/terrestre3.jpg" class="img-fluid animate__animated animate__fadeIn animate__delay-3s" alt="Responsive image" width="100%">
+                            <img src="./imagenes/terrestre3.jpg" class="img-fluid wow animate__animated animate__fadeIn animate__delay-3s" alt="Responsive image" width="100%">
                         </div> 
                     </div>
                     </section>
