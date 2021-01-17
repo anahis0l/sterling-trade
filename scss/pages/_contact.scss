@@ -12,34 +12,41 @@
 }
 }
 .section_form {
-
-  .background_imgcont {
+  img.background_img {
     background-size: cover;
     position: absolute;
     width: 100%;
-    height: 800px;
+    height: 700px;
+
+    
+@media screen and (max-width: 767px) {
+    &{
+        width: 100%;
+        height: 900px;
+
+    }
+}
+
   }
 .container_form{
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
+        h3{
+            color: $color-white;
+        }
+        label {
+            color: $color-white;
+            font-size: 12px;
+        }
+        input {
+            color: $color-white;
+            background-color: #fafafa81;
 
-    h3{
-        color: $color-white;
-    }
-    label {
-        color: $color-white;
-    }
+        }
+        textarea {
+            background-color: #fafafa81;
 
-
+        }
 }
-
-
-}
-
-@media (min-width: 767px) {
-    .background_imgcont{
-        height: 1200px;
-
-    }
 }

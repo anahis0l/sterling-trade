@@ -55,6 +55,7 @@ footer {
     width: 100%;
     padding-top: 30px;
     height: 100px;
+    bottom: 0;
     clear: both;
     position: relative;
             a{
@@ -88,6 +89,7 @@ a{
      img {
         width: 100%;
         height: auto;
+
      }
      h1 {
         font: $tittle-font;
