@@ -1,52 +1,57 @@
-
-
 .section_contact {
+    margin-bottom: 50px;
     .card {
         padding: 10px;
     
         i {
         color: $color-blue-marine-light;
         font-size: 2rem;
-
     }
-}
+ }
 }
 .section_form {
   img.background_img {
     background-size: cover;
+    height: 700px;
     position: absolute;
     width: 100%;
-    height: 700px;
+        
+    @media screen and (max-width: 767px) {
+        &{
+            width: 100%;
+            height: 900px;
 
-    
-@media screen and (max-width: 767px) {
-    &{
-        width: 100%;
-        height: 900px;
-
+        }
     }
 }
 
-  }
+@mixin white-form {
+
+    color: $color-white;   
+}
+
+%formstyle {
+    background-color: #fafafa81;
+    color: $color-white;
+}
 .container_form{
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
-        h3{
-            color: $color-white;
-        }
-        label {
-            color: $color-white;
-            font-size: 12px;
-        }
-        input {
-            color: $color-white;
-            background-color: #fafafa81;
+            h3{
+                @include white-form;
+            }
+            label {
+                @include white-form;
+                font-size: 12px;
+            }
+            input {
+                @extend %formstyle;
 
-        }
-        textarea {
-            background-color: #fafafa81;
+            }
+            textarea {
+                @extend %formstyle;
 
-        }
-}
+            }
+    }
 }

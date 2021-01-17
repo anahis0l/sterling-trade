@@ -1,23 +1,24 @@
-nav.nav{
+@media (min-width: 1200px) {
+    .galeria_x3 {
+        padding: 0;}   
+}
 
+nav.nav{
     .nav-tabs {
     margin-bottom: 20px;
-
             a {
+                border: 1px solid $color-grey-lighter;
                 color: $color-blue-marine-light;
                 text-decoration: none;
-                border: 1px solid $color-grey-lighter;
                 
             &:hover {
                 background-color:$color-grey-lighter;
             }
 
-
             &.active {
                 background-color: $color-blue-marine-light !important;
                 border-radius: 3px;
                 color: $color-white;
-
             } 
             }
 
@@ -25,16 +26,9 @@ nav.nav{
 
     }
 
-
-
 .list_services {
-    font: $p-body;
     color: $color-blue-marine;
+    font: $p-body;
     line-height: 24px;
 }
 
-@media (min-width: 1200px) {
-    .galeria_x3 {
-        padding: 0;}
-    
-}

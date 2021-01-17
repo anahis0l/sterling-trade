@@ -1,62 +1,51 @@
 .header--background-color {
     background-color: $color-blue-marine;
-
 }
 
 nav {
     i {
-        color: $color-white;
+        
         border: solid 2px $color-blue-marine-light;
-        border-radius: 10%;
+        border-radius: 10%;color: $color-white;
         padding: 5px;
-        &:hover {
-            background-color: $color-blue-marine-light;
-        }
+            &:hover {
+                background-color: $color-blue-marine-light;
+            }
     }
     .navbar-collapse {
         flex-grow: 0;
   
-    .nav-item {
-        margin-left: 5px;
-        margin-right: 5px;
-        .nav-link.active {
-            background-color: $color-blue-marine-light;
-            border-radius: 3px;
-            color:$color-white;
-        }
-
-       
-        a.nav-link {
-            color:$color-white;
-            text-decoration: none;
-            
-            
-        
-        &:hover {
-            background-color: $color-blue-marine-light;
-            border-radius: 3px;
-            color: $color-white; 
-                }
+        .nav-item {
+            margin-left: 5px;
+            margin-right: 5px;
+            .nav-link.active {
+                background-color: $color-blue-marine-light;
+                border-radius: 3px;
+                color:$color-white;
             }
+
+        
+                a.nav-link {
+                    color:$color-white;
+                    text-decoration: none;
+                    
+                    
+                
+                &:hover {
+                    background-color: $color-blue-marine-light;
+                    border-radius: 3px;
+                    color: $color-white; 
+                        }
+                    }
                     
                 }
             }
-        }
+    }
  
         
  @media (min-width: 992px) {
         .navbar-expand-lg {
             justify-content: space-around;
-        }
-}
-
-button {
-        
-        
-        background-color: $color-blue-marine-light;
-        border-color: $color-blue-marine-light;
-        .navbar-toggler-icon {
-            color: $color-white;
         }
 }
 

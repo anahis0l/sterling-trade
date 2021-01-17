@@ -1,40 +1,66 @@
+.introPag{
+    margin-bottom: 50px;
+    a {
+        text-decoration: none;
+    }
+    i {
+        background: $color-gradient-green;
+        border-radius: 50%; 
+        color: $color-white;
+        font-size: 2.5rem;
+        height: 50px;
+        padding: 1rem;
+        width: 50px;                   
+    &:hover {
+        background: $color-green-light ;
+            }
+        }
+}
 
  section.nosotros {
+    background-color: $color-blue-marine-light;
      padding-top: 5rem;
      padding-bottom: 5rem;
-     background-color: $color-blue-marine-light;
-
+     
             i.icon-paste {
                 color: $color-white;
                 font-size: 2rem;
                 padding: 1rem;
             }
 
-            ol li {
-                color: $color-white;
-                font-size: 24px;
-                font-weight: 700;
-                line-height: 48px;
-                
-            }
-        
+                ol li {
+                    color: $color-white;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    
+                }
  }
- 
 
 .section__icons--garantia {
     padding: 3rem;
     padding-top: 100px;
     padding-bottom: 100px;
         i{
-        font-size: 3rem;
         color: $color-blue-marine-light;
+        font-size: 3rem;
         margin-top: 80px;
         padding: 20px;
     }
 }
 
-@mixin large-text {
+.coment_treenation {
+    img {
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
 
+}
+@mixin large-text {
     font: $p-intro;
     font-weight: 400;
      
@@ -46,43 +72,10 @@
             .text-tree {
                 @include large-text;
                 color: $color-white;
-                padding: 4px;
                 margin-top: 10px;
+                padding: 4px;
             }
 }
 
-.introPag{
 
-    margin-bottom: 50px;
-    a {
-        text-decoration: none;
-    }
-    i {
-        border-radius: 50%; 
-        color: $color-white;
-        font-size: 2.5rem;
-        background: $color-gradient-green;
-        padding: 1rem;
-        width: 50px;
-        height: 50px;  
-    
-                    
-    &:hover {
-    background: $color-green-light ;
-        }
-    }
-}
-
-.coment_treenation {
-
-        img {
-            background-size: cover;
-            width: 100%;
-            background-attachment: scroll;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-}
 
